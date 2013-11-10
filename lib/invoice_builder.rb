@@ -1,4 +1,4 @@
-class invoice_builder
+class InvoiceBuilder
   def noop
     ""
   end

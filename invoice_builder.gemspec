@@ -10,4 +10,8 @@ Gem::Specification.new do |s|
   s.homepage    =
     'http://rubygems.org/gems/invoice_builder'
   s.license       = 'MIT'
+
+  s.add_runtime_dependency 'rails', ['>= 4', '< 6']
+  s.add_development_dependency 'rspec-rails', '2.14.0'
+  s.add_development_dependency 'rspec', '~> 2.14.1'
 end
